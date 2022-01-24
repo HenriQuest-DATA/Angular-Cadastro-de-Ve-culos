@@ -12,6 +12,6 @@ Fiz um simulador de api e backend com json-server
 
 
 Muito obrigado por tudo! 
-Aprendi muito com esse desafio, ainda pode ser lapidado e é o que planejo fazer a fim de aprimorar ainda mais os conhecimentos que adquiri.
+Aprendi muito com esse desafio, que ainda pode ser melhorado e é o que planejo fazer pra, independente do resultado, entregar sempre o meu melhor.
 
 
