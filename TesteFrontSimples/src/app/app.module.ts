@@ -41,6 +41,8 @@ import { MatTableModule } from '@angular/material/table';
 import { MatSortModule } from '@angular/material/sort';
 import { CarsUpdateComponent } from './components/cars/cars-update/cars-update.component';
 import { CarsDeleteComponent } from './components/cars/cars-delete/cars-delete.component';
+import { MatPaginatorIntl } from '@angular/material/paginator';
+
 
 @NgModule({
   declarations: [

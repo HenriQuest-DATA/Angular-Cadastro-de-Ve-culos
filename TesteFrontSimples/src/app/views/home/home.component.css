@@ -1,6 +1,6 @@
 .content_header, .content_banner, .content_search, .content_crud{
     padding: 10px 16px;
-    background-color: #FCFCFC;
+    background-color: #FCFCFC !important;
     /* border: solid red 2px; */
     display: flex;
     align-items: center;

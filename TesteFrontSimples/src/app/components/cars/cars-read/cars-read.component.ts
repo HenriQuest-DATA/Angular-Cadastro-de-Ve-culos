@@ -4,6 +4,7 @@ import { Cars } from './../cars.model';
 import { Component, OnInit, ViewChild, AfterViewInit } from '@angular/core';
 import { tap } from 'rxjs';
 import { MatTableDataSource, _MatTableDataSource } from '@angular/material/table';
+import { MatPaginatorIntl } from '@angular/material/paginator';
 
 
 @Component({
@@ -13,6 +14,7 @@ import { MatTableDataSource, _MatTableDataSource } from '@angular/material/table
 })
 export class CarsReadComponent implements OnInit, AfterViewInit {
 
+  
   cars: Cars[] = [];
   carsLG: number = 0;
   carsRow: Cars[] = [];
@@ -42,5 +44,7 @@ export class CarsReadComponent implements OnInit, AfterViewInit {
         })
       ).subscribe();
   }
+  
 
 }
+
