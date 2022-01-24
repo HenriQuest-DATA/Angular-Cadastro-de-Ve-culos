@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; background-color: #FCFCFC; }
+body { margin: 0; font-family: "Poppins", sans-serif; }
+
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+* {
+  font-family: "Poppins", sans-serif;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.mat-select-min-line{
+    color: #828282 !important;
+    font-weight: 400;
+}
+
+.mat-cell{
+    padding: 8px 5px !important;
+}

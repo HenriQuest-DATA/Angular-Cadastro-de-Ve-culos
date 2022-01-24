@@ -1,0 +1,24 @@
+<mat-card class="card_crud">
+    <div class="card_div">
+        <div class="crud_add_cl1">
+            <p class="obj_crud_txt">Lista de veículos</p>
+            <button (click)="navigateToCarCreate()" class="btn_crud_add">+ Criar veículo</button>
+        </div>
+        <div class="crud_add_cl2">
+            <p class="status_crud_txt">Alterar status:</p>
+
+            <mat-select class="select_crud" value="todos">
+                <mat-option label="Todos" value="todos" selected>Todos</mat-option>
+                <mat-option value="ativo">Ativo</mat-option>
+                <mat-option value="inativo">Inativo</mat-option>
+            </mat-select>
+
+            <a><img src="assets/img/lixeira.svg" alt="" class="ico_crud"></a>
+            <a><img src="assets/img/compartilhar.svg" alt="" class="ico_crud"></a>
+        </div>
+    </div>
+    <app-cars-read style="width: 100% !important;"></app-cars-read>
+    
+        <!--<app-cars-read2></app-cars-read2>-->
+    
+</mat-card>

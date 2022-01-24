@@ -1,0 +1,152 @@
+.content_create{
+    padding:  10px 16px;
+    background-color: #FCFCFC;
+}
+
+.contain_input{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 900px;
+    margin-left: 0px;
+    flex-wrap: wrap;
+}
+
+.contain_input2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 900px;
+    margin-left: 0px;
+    flex-wrap: wrap;
+}
+
+label{
+    margin-bottom: 10px;
+}
+.title{
+
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.select_input{
+    font-family: 'Poppins', sans-serif;
+}
+
+.contain_input_card, .create_2th_form_cls{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px 30px 40px;
+    border-radius: 20px;
+}
+
+.create_2th_form{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+#form_cls_1{
+    margin-right: 10px;
+    flex-grow: 1;
+}
+
+#form_cls_2{
+    margin-left: 10px;
+    flex-grow: 1;
+}
+
+.unit_input{
+    min-width: 160px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.unit_input2_menor{
+    width: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.unit_input2{
+    width: 150px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons_container{
+    text-align: center;
+}
+
+.buttons_container button{
+    text-align: center;
+}
+
+input, .select_create{
+    border: solid #E0E0E0 1.5px;
+    padding: 10px 8px 10px 8px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border-radius: 10px;
+    max-width: 190px !important;
+}
+
+.btn_cancel{
+    background-color: #FCFCFC;
+    font-weight: 300;
+    font-size: .8rem;
+    padding: 11px 20px;
+    border-radius: 10px;
+    margin: 5px;
+    color: #909090;
+    border: solid #E0E0E0 1px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: .1s;
+}
+.btn_cancel:hover{
+    background: transparent;
+    transition: .4s;
+    border: solid #E0E0E0 2px;
+    padding: 10px 19px;
+    transition: .2s;
+}
+
+.btn_update{
+    background-color: #0291FB;
+    font-weight: 300;
+    font-size: .8rem;
+    padding: 11px 19px;
+    border-radius: 10px;
+    margin: 5px;
+    color: white;
+    border: solid #0291FB 1px;
+    cursor: pointer;
+    transition: .1s;
+}
+.btn_update:hover{
+    background: transparent;
+    color:#0291FB;
+    transition: .2s;
+    border: solid #0291FB 1px;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+    background: none;
+}
+
+input[type="time"] {
+    padding-left: 50px;
+}
+
+.my-icon{
+    position: relative;
+    bottom: 32px;
+    left: 15px;
+    color: #0291FB;
+}

@@ -1,0 +1,93 @@
+<div class="content_create">
+    <p style="color: #BDBDBD; font-weight: 500;">Frota / Veículos / <span style="color: #0291FB;">Edição de Veículos</span></p>
+</div>
+<div class="content_create">
+    <form>
+        <mat-card class="contain_input_card">
+            <mat-card-title class="title">Cadastro de veículos</mat-card-title>
+            <div class="contain_input">
+                <div class="unit_input">
+                    <mat-label>Veículo</mat-label>
+                    <input matInput placeholder="" [(ngModel)]="car.veiculo" required name="veiculo">
+                </div>
+            
+                <div class="unit_input">
+                    <mat-label>Marca</mat-label>
+                    <mat-select matSelect [(ngModel)]="car.marca" required name="marca" class="select_create">
+                        <mat-option value="fiat">Fiat</mat-option>
+                        <mat-option value="ford">Ford</mat-option>
+                        <mat-option value="chevrolet">Chevrolet</mat-option>
+                        <mat-option value="Renault">Renault</mat-option>
+                        <mat-option value="Honda">Honda</mat-option>
+                        <mat-option value="Volkswagen">Volkswagen</mat-option>
+                    </mat-select>
+                </div>
+
+                <div class="unit_input">
+                    <mat-label>Placa</mat-label>
+                    <input matInput placeholder="" required [(ngModel)]="car.placa" required name="placa">
+                </div>
+
+                <div class="unit_input">
+                    <mat-label>Consumo Médio (km/L)</mat-label>
+                    <input matInput placeholder="">
+                </div>
+            </div>
+
+        </mat-card>
+        <div class="create_2th_form">
+            <mat-card class="create_2th_form_cls" id="form_cls_1">
+                <mat-card-title class="title">Tipo de veículos</mat-card-title>
+                <div class="contain_input2">
+                    <div class="unit_input2">
+                        <mat-label>Tipo de veículo</mat-label>
+                        <mat-select matSelect class="select_create" [(ngModel)]="car.tipo_veiculo" required name="tipo_veiculo">
+                            <mat-option value="3/4">3/4</mat-option>
+                            <mat-option value="3/4">3/4</mat-option>
+                            <mat-option value="3/4">3/4</mat-option>
+                        </mat-select>
+                    </div>
+
+                    <div class="unit_input2_menor">
+                        <mat-label>Vol máx</mat-label>
+                        <input matInput placeholder="" value="30m²" disabled>
+                    </div>
+
+                    <div class="unit_input2_menor">
+                        <mat-label>Peso máx</mat-label>
+                        <input matInput placeholder="" value="30kg" disabled>
+                    </div>
+
+                    <div class="unit_input2_menor">
+                        <mat-label>Tamanho</mat-label>
+                        <input matInput placeholder="" value="30kg" disabled>
+                    </div>
+                </div>
+            </mat-card>
+
+            <mat-card class="create_2th_form_cls" id="form_cls_2">
+                <mat-card-title class="title">Jornada de trabalho</mat-card-title>
+                <div class="contain_input">
+
+                    <div class="unit_input">
+                        <mat-label>Início</mat-label>
+                        <input type="time" matInput placeholder="">
+                        <mat-icon matPrefix class="my-icon">access_time</mat-icon>
+                    </div>
+
+                    <div class="unit_input">
+                        <mat-label>Fim</mat-label>
+                        <input type="time" matInput placeholder="">
+                        <mat-icon matPrefix class="my-icon">access_time</mat-icon>
+                    </div>
+                </div>
+            </mat-card>
+        </div>
+        <div class="buttons_container">
+            <button (click)="cancel()" class="btn_cancel">Cancelar</button>
+            <button (click)="createCars()" color="primary" class="btn_criar">Criar veículo</button>
+        </div>
+    </form>
+
+    
+</div>

@@ -1,0 +1,81 @@
+<mat-sidenav-container class="container">
+    <mat-sidenav class="sidenav" [(opened)]="opened">
+        <a routerLink="">
+            <img src="assets/img/logo.png" alt="logo" class="logo">
+        </a>
+        <div class="empresa">
+            <img src="assets/img/empresa.png" alt="" class="empresa_img">
+            <span>
+                <p class="nome_empresa">Empresa</p>
+                <p class="local_empresa">São Paulo/SP</p>
+            </span>
+        </div>
+        
+        
+
+        
+        <mat-accordion class="acc_container">
+            <mat-nav-list class="nav-list">
+                <mat-list-item class="nav-list_inner">
+                    <img src="assets/img/home.svg" alt="" class="ico_nav">
+                    Home
+                </mat-list-item>
+            </mat-nav-list>
+
+            <mat-expansion-panel class="acc_expansion">
+                <mat-expansion-panel-header class="acc_expansion_header">
+                  <mat-panel-title>
+                    <img src="assets/img/pedidos.svg" alt="" class="ico_nav">
+                    Pedidos
+                  </mat-panel-title>
+                </mat-expansion-panel-header>
+                <p>This is the primary content of the panel.</p>
+            </mat-expansion-panel>
+
+            <mat-expansion-panel class="acc_expansion">
+                <mat-expansion-panel-header class="acc_expansion_header">
+                  <mat-panel-title>
+                    <img src="assets/img/rotas.svg" alt="" class="ico_nav">
+                    Rotas
+                  </mat-panel-title>
+                </mat-expansion-panel-header>
+                <p>This is the primary content of the panel.</p>
+            </mat-expansion-panel>
+
+            <mat-nav-list class="nav-list">
+                <mat-list-item class="nav-list_inner">
+                    <img src="assets/img/monitoramento.svg" alt="" class="ico_nav">
+                    Monitoramento
+                </mat-list-item>
+            </mat-nav-list>
+
+            <mat-expansion-panel class="acc_expansion">
+                <mat-expansion-panel-header class="acc_expansion_header">
+                  <mat-panel-title>
+                    <img src="assets/img/frota.svg" alt="" class="ico_nav">
+                    Frota
+                  </mat-panel-title>
+                </mat-expansion-panel-header>
+                <button mat-button class="btn_menu_nav">Entregadores</button>
+                <button mat-button class="btn_menu_nav" routerLink="">Frota</button>
+            </mat-expansion-panel>
+
+            <mat-expansion-panel class="acc_expansion">
+                <mat-expansion-panel-header class="acc_expansion_header">
+                  <mat-panel-title>
+                    <img src="assets/img/configuracoes.svg" alt="" class="ico_nav">
+                    Configurações
+                  </mat-panel-title>
+                </mat-expansion-panel-header>
+                <p>This is the primary content of the panel.</p>
+            </mat-expansion-panel>
+        </mat-accordion>
+    </mat-sidenav>
+    <mat-sidenav-content class="content_header">
+      <a (click)="opened=!opened" style="cursor: pointer;"><mat-icon style="color: #0291FB">menu</mat-icon></a>
+        <app-header></app-header>
+    </mat-sidenav-content>
+    <mat-sidenav-content class="content">
+        <router-outlet class="content_inner"></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>

@@ -1,0 +1,15 @@
+.content_header, .content_banner, .content_search, .content_crud{
+    padding: 10px 16px;
+    background-color: #FCFCFC;
+    /* border: solid red 2px; */
+    display: flex;
+    align-items: center;
+}
+
+.banner, .search, .crud{
+    width: 100%;
+}
+
+.container{
+    min-width: 720px;
+}

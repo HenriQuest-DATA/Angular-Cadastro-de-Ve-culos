@@ -1,0 +1,113 @@
+.sidenav{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 32px 20px;
+    width: 250px;
+    height: 100%;
+    background: #FFFFFF;
+    border: none;
+}
+.sidenav a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.sidenav .logo{
+    width: 90%;
+    margin: auto;
+}
+
+.mat-sidenav-container{
+    min-height: 100%;
+}
+
+.content_header{
+    max-height: 50px;
+}
+
+.empresa{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 30px 0;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background: #FCFCFC;
+    border-radius: 12px;
+}
+
+.empresa_img{
+    width: 42px;
+    border-radius: 50px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.nome_empresa, .local_empresa{
+    font-size: 13px;
+    line-height: 23px;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+
+.local_empresa{
+    color: #C9C9C9;
+}
+
+.ico_nav{
+    margin-right: 8px;
+}
+
+.acc_expansion{
+    border: none;
+    box-shadow: none;
+}
+
+.nav-list{
+    padding: 0;
+}
+
+.nav-list_inner{
+    margin-left: 0px;
+}
+
+.acc_expansion_header{
+    margin: 0;
+    padding: 0px 20px 0px 16px;
+}
+
+.content_header{
+    padding: 16px;
+    background-color: #FCFCFC;
+    /* border: solid red 2px; */
+    display: flex;
+    align-items: center;
+}
+
+.mat-expansion-panel-spacing {
+    margin: 0px;
+}
+
+.acc_expansion_header, .nav-list_inner{
+    font-family: 'Poppins', sans-serif;
+    font-size: .85rem;
+    font-weight: 500;
+}
+
+a, a:active, a:focus{
+    outline: none; /* Works in Firefox, Chrome, IE8 and above */ 
+}
+
+.btn_menu_nav{
+    color:#BDBDBD;
+    width: 100%;
+    text-align: left;
+}
+.btn_menu_nav:hover{
+    color:white;
+    background-color: #0291FB;
+    border-radius: 8px;
+}

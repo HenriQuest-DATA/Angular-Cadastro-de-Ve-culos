@@ -1,0 +1,61 @@
+.card_search{
+    background: #FFFFFF;
+    box-shadow: 0px 5px 19px -4px rgba(0, 0, 0, 0.03);
+    border-radius: 20px;
+    display: flex;
+}
+
+#cl_card_1{
+    width: 80%;
+    max-width: 400px;
+    padding: 7px;
+}
+
+#cl_card_2{
+    width: 20%;
+    max-width: 100px;
+    padding: 5px;
+}
+
+.title{
+    font-family: Poppins, sans-serif;
+    font-size: .8rem;
+    line-height: 1rem;
+    margin: 0;
+    padding: 0;
+    color: #BDBDBD;
+}
+
+input{
+    border: solid #E0E0E0 1px;
+    padding: 10px 8px 10px 45px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border-radius: 8px;
+    color: #828282;
+    font-weight: 500;
+}
+
+.select_crud{
+    border: solid #E0E0E0 1px;
+    padding: 10px 8px 10px 18px;
+    box-sizing: border-box;
+    margin-top: 12px;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.opt{
+    color: #828282 !important;
+}
+
+.mat-select-panel {
+    background-color: red;
+}
+
+.my-icon{
+    position: absolute;
+    bottom: 32px;
+    left: 35px;
+    color: #0291FB;
+}
